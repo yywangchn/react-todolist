@@ -12,6 +12,14 @@ img {
   margin: 0 auto;
 }
 
+.container {
+  width: 600px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 10px;
+}
+
 .App {
   flex: auto;
   flex-direction: column;
