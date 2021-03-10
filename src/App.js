@@ -28,8 +28,10 @@ class App extends Component {
   };
   addTodo = (value) => {
     let { nextID, todos } = this.state;
-    todos.push({ id: ++nextID, completed: false, value });
+    console.log(todos);
+    todos.push({ id: ++nextID, completed: false, text: value });
     this.setState({ nextID, todos });
+    console.log(todos);
   };
   handleClick = (id) => {
     let todos = this.state.todos.map((todo) => {
